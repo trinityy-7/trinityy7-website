@@ -72,4 +72,7 @@
   pointer-events: none;
   filter: blur(5px);
   transform: scale(1.1);
+  background-image: url('assets/images/background.png');
+  background-size: 100% 100%;
+  
 }
