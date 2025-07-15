@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+              text-align: center;
+            }
+            th, td {
+                width: 100px;
+            }
+            tr {
+                height: 40px;
+            }
+        </style>
+        <script src="pull.js"></script>
+    </head>
+
+    <body>
+        <label for="pulls">pulls:</label>
+        <input type="text" id="pulls" name="pulls"><br><br>
+        <label for="cpity">char banner pity:</label>
+        <input type="text" id="cpity" name="cpity"><br>
+        <label for="cguarantee">guarantee:</label>
+        <input type="checkbox" class="cguarantee" name="cguarantee"><br><br>
+        <label for="cpity">weapon banner pity:</label>
+        <input type="text" id="wpity" name="wpity"><br>
+        <label for="wguarantee">guarantee:</label>
+        <input type="checkbox" class="wguarantee" name="wguarantee"><br><br>
+
+
+        <button onclick="updateTable()">calculate</button>
+
+        <table id="results">
+        </table>
+    </body>
+    
+</html>
